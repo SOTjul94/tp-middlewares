@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Include Head -->
+  <%- include('partials/head', {title: 'Formulario de creación'}) %>
+  <body>
+    <!-- Header -->
+    <%- include('partials/headerNavbar') %>
+    <!-- /Header -->
+
+    <section class="login__container">
+      <div class="login__wrapper">
+        <h2>Login</h2>
+        <form action="">
+          <input
+            class="form-input"
+            type="email"
+            name="email"
+            placeholder="Ingresa tu email"
+          />
+          <input
+            class="form-input"
+            type="password"
+            name="password"
+            placeholder="Ingresa tu contraseña"
+          />
+          <button type="submit" class="buy-now-button">Ingresa</button>
+        </form>
+      </div>
+    </section>
+    <!-- /todos los productos -->
+
+    <!-- footer -->
+    <%- include('partials/footer') %>
+    <!-- /footer -->
+  </body>
+</html>
